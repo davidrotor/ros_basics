@@ -1,0 +1,12 @@
+Source: ros-melodic-ros-basics
+Section: misc
+Priority: extra
+Maintainer: david <david@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-basics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-std-msgs
+Description: The ros_basics package
