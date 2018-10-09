@@ -1,0 +1,8 @@
+#GOAL DEF
+int32 count
+---
+#RESULT DEF
+int32 final_count
+---
+#FEEDBACK
+int32 current_number
