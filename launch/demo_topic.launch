@@ -1,0 +1,5 @@
+<launch>
+    <node name="pub" pkg="ros_basics" type="pub" output="screen"/>
+    <node name="sub" pkg="ros_basics" type="sub" output="screen"/>
+
+</launch>
